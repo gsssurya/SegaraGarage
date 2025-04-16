@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SegaraGarage</title>
+    <link rel="shortcut icon" href="Stock-image/SegaraArt Gold.png" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="content.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <img
+          class="logo-segaraart"
+          src="Stock-image/SegaraArt Gold.svg"
+          alt="Gambar svg"
+        />
+      </div>
+      <div class="header-right">
+        <a href="#popup-sidebar">
+          <div class="icon-link-menu">
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              viewBox="0 0 24 24"
+              role="img"
+              width="42px"
+              height="42px"
+              fill="none"
+            >
+              <path
+                stroke="currentColor"
+                stroke-width="1.5"
+                d="M21 5.25H3M21 12H3m18 6.75H3"
+              ></path>
+            </svg>
+          </div>
+        </a>
+        <div class="header-menu">
+          Berlangganan
+          <div class="underline"></div>
+        </div>
+        <div class="header-menu">
+          Promo
+          <div class="underline"></div>
+        </div>
+        <div class="header-menu">
+          Kontak
+          <div class="underline"></div>
+        </div>
+        <div class="header-menu">
+          Tentang kami
+          <div class="underline"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebare-container" id="popup-sidebar">
+      <div class="sidebar">
+        <a class="close-icon" href="home.html">
+          <img
+            class="icon-close"
+            src="Stock-image/close-icon.svg"
+            alt="close svg"
+        /></a>
+        <div class="sidebar-menu">
+          <div class="text-menu-sidebar">
+            <p class="text-menu">Berlangganan</p>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="rgb(34,34,34)"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="arcs"
+            >
+              <path d="M15 18l-6-6 6-6"></path>
+            </svg>
+          </div>
+          <div class="text-menu-sidebar">
+            <p class="text-menu">Promo</p>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="rgb(34,34,34)"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="arcs"
+            >
+              <path d="M15 18l-6-6 6-6"></path>
+            </svg>
+          </div>
+          <div class="text-menu-sidebar">
+            <p class="text-menu">Kontak</p>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="rgb(34,34,34)"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="arcs"
+            >
+              <path d="M15 18l-6-6 6-6"></path>
+            </svg>
+          </div>
+          <div class="text-menu-sidebar">
+            <p class="text-menu">Tentang kami</p>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="rgb(34,34,34)"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="arcs"
+            >
+              <path d="M15 18l-6-6 6-6"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      window.addEventListener("hashchange", function () {
+        if (location.hash === "#popup-sidebar") {
+          document.body.style.overflow = "hidden";
+        } else {
+          document.body.style.overflow = "";
+        }
+      });
+
+      if (location.hash === "#popup-sidebar") {
+        document.body.style.overflow = "hidden";
+      }
+    </script>
+    <main>
+      <div class="leftside-main">
+        <p class="promosi-teks">Butuh tempat parkir mobil yang aman?</p>
+        <p class="deskripsi-singkat">
+          <b>SegaraGarage</b> hadir untuk menjawab kebutuhan Anda akan garasi
+          pribadi yang nyaman, murah, dan terpercaya.
+        </p>
+        <button class="sewa-button">Sewa garasi sekarang!</button>
+      </div>
+      <div class="rightside-main">
+        <div class="car">
+          <img
+            class="car-shadow"
+            src="Stock-image/car-shadow.svg"
+            alt="Gambar svg"
+          />
+        </div>
+        <div class="car-shadow">
+          <img class="car" src="Stock-image/car.svg" alt="Gambar svg" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
