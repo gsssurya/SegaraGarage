@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Stock-image/SegaraArt Gold.png" />
+    <link rel="stylesheet" href="general.css" />
+    <title>SegaraGarage</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body id="halaman">
+    <nav id="navbar">
+      <div class="nav-left">
+        <img src="Stock-image/SegaraArt Gold.png" alt="" />
+      </div>
+
+      <div class="nav-middle" id="menu">
+        <div class="slide-menu" id="menu-slide">
+          <div class="close-icon" onclick="menutup_menu()">
+            <img src="Stock-image/close-icon.svg" alt="" />
+          </div>
+          <a href=""><p>Langganan</p></a>
+          <a id="link" onclick="scrollKeBawah('harga')"><p>Harga</p></a>
+          <p>Kontak</p>
+          <a onclick="scrollKeBawah('tentang-kami')" id="link"
+            ><p>Tentang kami</p></a
+          >
+        </div>
+      </div>
+
+      <div class="nav-right">
+        <button>Sewa Sekarang!</button>
+        <div class="menu-icon" onclick="tampilkan_menu()">
+          <svg
+            width="33"
+            height="33"
+            viewBox="0 0 28 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="27.4286" height="2.57143" rx="1.28571" fill="black" />
+            <rect
+              y="11.1429"
+              width="27.4286"
+              height="2.57143"
+              rx="1.28571"
+              fill="black"
+            />
+            <rect
+              y="21.4286"
+              width="27.4286"
+              height="2.57143"
+              rx="1.28571"
+              fill="black"
+            />
+          </svg>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="home-page">
+        <div class="left">
+          <h1>Butuh tempat parkir mobil yang aman?</h1>
+          <p>
+            <b>SegaraGarage</b> hadir untuk menjawab kebutuhan Anda akan garasi
+            pribadi yang nyaman, murah, dan terpercaya.
+          </p>
+        </div>
+
+        <div class="right">
+          <div class="point">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tentang-kami" id="tentang-kami">
+        <div class="top">
+          <h1>Tentang kami</h1>
+          <p>
+            Kami menawarkan kenyamanan luar biasa dengan ruang luas yang terawat
+            baik, keamanan maksimal, serta akses yang mudah untuk memenuhi
+            kebutuhan mobilitas sehari-hari.
+          </p>
+        </div>
+        <div class="middle">
+          <div class="slider"></div>
+          <div class="wrap">
+            <div class="tentang-kami-foto" id="slide-1"></div>
+            <div class="tentang-kami-foto" id="slide-2"></div>
+            <div class="tentang-kami-foto" id="slide-3"></div>
+          </div>
+        </div>
+        <div class="bottoms">
+          <p>Temukan lokasi kami dengan:</p>
+          <img src="Stock-image/maps-icon.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="biaya-langganan" id="harga">
+        <div class="top">
+          <h1>Biaya Langganan</h1>
+          <p>
+            Pilih paket sesuai kebutuhan Anda, mulai dari Rp300.000/bulan. Semua
+            garasi aman & terpercaya.
+          </p>
+        </div>
+        <div class="bottom">
+          <div class="tampilan-phone">
+            <div class="swiper-wrapper"></div>
+          </div>
+
+          <div class="tampilan-desktop">
+            <div class="paket-reguler"></div>
+            <div class="paket-gold"></div>
+            <div class="paket-sultan"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="halaman-tambahan">
+        <div class="kiri">
+          <img src="Stock-image/SegaraArt Gold.png" alt="" />
+          <p>SegaraGarage</p>
+        </div>
+        <div class="kanan">
+          <div>
+            <svg
+              width="136"
+              height="40"
+              viewBox="0 0 136 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 10.04C25.4998 10.04 29.9997 14.5298 30 20.0596C30.0054 22.4452 29.158 24.7549 27.6104 26.5703C26.0626 28.3858 23.916 29.5878 21.5596 29.96V22.96H23.8896L24.3398 20.0596H21.5596V18.1797C21.5597 17.3898 21.9506 16.6201 23.1904 16.6201H24.4502V14.1504C24.4502 14.1504 23.3097 13.96 22.2197 13.96C19.93 13.9601 18.4406 15.34 18.4404 17.8496V20.0596H15.9004V22.96H18.4404V29.96C13.6604 29.21 10 25.0596 10 20.0596C10.0003 14.5298 14.5002 10.04 20 10.04Z"
+                fill="#909090"
+              />
+              <path
+                d="M68 13C72.19 13 74.8001 13.1604 75.8301 13.4404C76.7299 13.6904 77.3096 14.2701 77.5596 15.1699C77.6896 15.6399 77.7798 16.2703 77.8398 17.0703C77.9098 17.8702 77.9404 18.5602 77.9404 19.1602L78 20C78 22.19 77.8396 23.8001 77.5596 24.8301C77.3096 25.7299 76.7299 26.3096 75.8301 26.5596C75.3601 26.6896 74.4997 26.7798 73.1797 26.8398C71.8798 26.9098 70.6898 26.9404 69.5898 26.9404L68 27C63.81 27 61.1999 26.8396 60.1699 26.5596C59.2701 26.3096 58.6904 25.7299 58.4404 24.8301C58.3104 24.3601 58.2202 23.7297 58.1602 22.9297C58.0902 22.1298 58.0596 21.4398 58.0596 20.8398L58 20C58 17.81 58.1604 16.1999 58.4404 15.1699C58.6904 14.2701 59.2701 13.6904 60.1699 13.4404C60.6399 13.3104 61.5003 13.2202 62.8203 13.1602C64.1202 13.0902 65.3102 13.0596 66.4102 13.0596L68 13ZM66 23L71.1904 20L66 17V23Z"
+                fill="#909090"
+              />
+              <path
+                d="M120.2 10C123.4 10.0001 126 12.6 126 15.7998V24.2002C126 25.7384 125.388 27.2131 124.301 28.3008C123.213 29.3884 121.738 29.9999 120.2 30H111.8C108.6 29.9999 106 27.4 106 24.2002V15.7998C106 14.2616 106.612 12.7869 107.699 11.6992C108.787 10.6116 110.262 10.0001 111.8 10H120.2ZM111.6 12C110.645 12.0001 109.73 12.3796 109.055 13.0547C108.38 13.7297 108 14.645 108 15.5996V24.4004C108 26.3901 109.61 27.9998 111.6 28H120.4C121.355 27.9999 122.27 27.6204 122.945 26.9453C123.62 26.2703 124 25.355 124 24.4004V15.5996C124 13.6099 122.39 12.0002 120.4 12H111.6ZM116 15C117.326 15 118.597 15.5272 119.535 16.4648C120.473 17.4025 121 18.6739 121 20C121 21.3261 120.473 22.5975 119.535 23.5352C118.597 24.4728 117.326 25 116 25C114.674 25 113.403 24.4728 112.465 23.5352C111.527 22.5975 111 21.3261 111 20C111 18.6739 111.527 17.4025 112.465 16.4648C113.403 15.5272 114.674 15 116 15ZM116 17C115.204 17 114.442 17.3163 113.879 17.8789C113.316 18.4415 113 19.2044 113 20C113 20.7956 113.316 21.5585 113.879 22.1211C114.442 22.6837 115.204 23 116 23C116.796 23 117.558 22.6837 118.121 22.1211C118.684 21.5585 119 20.7956 119 20C119 19.2044 118.684 18.4415 118.121 17.8789C117.558 17.3163 116.796 17 116 17ZM121.25 13.5C121.582 13.5 121.899 13.6318 122.134 13.8662C122.368 14.1006 122.5 14.4185 122.5 14.75C122.5 15.0815 122.368 15.3994 122.134 15.6338C121.899 15.8682 121.582 16 121.25 16C120.918 16 120.601 15.8682 120.366 15.6338C120.132 15.3994 120 15.0815 120 14.75C120 14.4185 120.132 14.1006 120.366 13.8662C120.601 13.6318 120.918 13.5 121.25 13.5Z"
+                fill="#909090"
+              />
+            </svg>
+          </div>
+          <p>Since 2025</p>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
