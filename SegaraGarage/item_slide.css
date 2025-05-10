@@ -29,6 +29,7 @@
   user-select: none;
   background-position: center;
   object-fit: cover;
+  background-size:cover;
 }
 
 .slide:nth-child(1) {
