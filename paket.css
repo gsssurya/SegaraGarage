@@ -88,6 +88,7 @@ body{
   font-family: "Inter", sans-serif;
   opacity: 75%;
   margin: 0 auto;
+  white-space:nowrap;
 }
 .garis{
   width: 100%;
