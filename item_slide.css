@@ -1,0 +1,53 @@
+
+
+.right {
+  overflow: hidden;
+  position: relative;
+  cursor: grab;
+  margin: 0; /* Menjaga div berada di tengah */
+}
+
+.slider-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: grab;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 100%;  /* Menyesuaikan dengan tinggi slider-container */
+}
+
+.slide {
+  flex: 0 0 550px;  /* Menyesuaikan lebar slide dengan lebar .right */
+  height: 100%;     /* Menyesuaikan tinggi slide dengan tinggi .right */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.slide:nth-child(1) {
+  background-image: url(Stock-image/pemandangan1.jpg);
+}
+.slide:nth-child(2) {
+  background-image: url(Stock-image/pemandangan2.jpg);
+}
+.slide:nth-child(3) {
+  background-image: url(Stock-image/pemaandangan3.jpg);
+}
+.slide:nth-child(4) {
+    background-image: url(Stock-image/pemandangan1.jpg);
+}
+.slide:nth-child(5) {
+  background-image: url(Stock-image/pemandangan2.jpg);
+}
+
+.grabbing {
+  cursor: grabbing;
+}

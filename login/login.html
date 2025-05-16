@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="icon/SegaraArt Gold.svg" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="view-box" id="req">
+      <div class="login-box">
+        <div class="left" id="left">
+          <div class="login-container">
+            <p class="judul">Registrasi</p>
+            <div class="input-box">
+              <input
+                class="input-data"
+                type="text"
+                name=""
+                placeholder="Nama"
+                id=""
+              />
+              <div></div>
+            </div>
+            <div class="input-box">
+              <input
+                class="input-data"
+                type="text"
+                name=""
+                placeholder="Alamat"
+                id=""
+              />
+              <div></div>
+            </div>
+            <div class="input-box">
+              <input
+                class="input-data"
+                type="text"
+                name=""
+                placeholder="Nomor telepon"
+                id=""
+              />
+              <div></div>
+            </div>
+            <div class="input-box">
+              <input
+                class="input-data"
+                type="text"
+                name=""
+                placeholder="Kata sandi"
+                id=""
+              />
+              <div></div>
+            </div>
+            <button class="tombol-mulai" id="gass" onclick="pilihdenah()">
+              Registrasi
+            </button>
+          </div>
+        </div>
+        <div class="right" id="right">
+          <div class="bertanya">
+            <p class="sapa">Hello!</p>
+            <p class="saran">Sudah memiliki akun?</p>
+            <button onclick="ganti_login()">Login</button>
+          </div>
+        </div>
+      </div>
+      <div class="register-box">
+        <div class="right" id="right2">
+          <div class="bertanya">
+            <p class="sapa">Hello, welcome back!</p>
+            <p class="saran">Belum memiliki akun?</p>
+            <button onclick="ganti_register()">Registrasi</button>
+          </div>
+        </div>
+        <div class="left" id="left2">
+          <div class="login-container">
+            <p class="judul">Login</p>
+            <div class="input-box">
+              <input
+                class="input-data"
+                type="text"
+                name=""
+                placeholder="Nomor telepon"
+                id=""
+              />
+              <div></div>
+            </div>
+            <div class="input-box">
+              <input
+                class="input-data"
+                type="text"
+                name=""
+                placeholder="Kata sandi"
+                id=""
+              />
+              <div></div>
+            </div>
+          </div>
+          <button class="tombol-mulai" onclick="">Login</button>
+        </div>
+      </div>
+    </div>
+    <div class="pilih-garasi" id="pilih-garag">
+      <p>Silahkan pilih garasi!</p>
+      <div class="box-pilih">
+        <div class="denah">
+          <div class="posisi-box">
+            <div class="posisi"></div>
+            <div class="posisi"></div>
+            <div class="posisi"></div>
+            <div class="posisi"></div>
+            <div class="posisi"></div>
+            <div class="posisi"></div>
+            <div class="posisi"></div>
+          </div>
+          <div class="posisi-box">
+            <div class="posisi">A1</div>
+            <div class="posisi">A2</div>
+            <div class="posisi">A3</div>
+            <div class="posisi">A4</div>
+            <div class="posisi">A5</div>
+            <div class="posisi">A6</div>
+            <div class="posisi">A7</div>
+            <div class="posisi">A8</div>
+          </div>
+          <div class="pintu"></div>
+        </div>
+        <div class="indikator-box" id="indikator">
+          <div class="grup-indikator">
+            <div class="color1"></div>
+            <p>Tersedia</p>
+          </div>
+          <div class="grup-indikator">
+            <div class="color1" style="background-color: #ff0000"></div>
+            <p>Tersewa</p>
+          </div>
+          <div class="grup-indikator">
+            <div class="color1" style="background-color: #383838"></div>
+            <p>Belum tersedia</p>
+          </div>
+          <div class="grup-indikator">
+            <div class="color1" style="background-color: #f5f5f5"></div>
+            <p>Pintu masuk</p>
+          </div>
+          <button>Lanjutkan</button>
+        </div>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
